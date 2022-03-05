@@ -2,4 +2,44 @@ body{
     margin:0px;
     padding:0px;
     height:100vh;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color:red;
+    border-width:10px;
+}
+
+.container{
+    margin:20px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color:green;
+    border-width:10px;
+}
+
+.row{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.box1{
+    background-color:aqua;
+    flex: 1 200px;
+    height:100px;
+    margin:20px;
+}
+
+.box2{
+    background-color:rgb(159, 211, 36);
+    flex: 1 200px;
+    height:100px;
+    margin:20px;
+}
+
+.box3{
+    background-color:rgb(221, 11, 176);
+    flex: 1 200px;
+    height:100px;
+    margin:20px;
 }
