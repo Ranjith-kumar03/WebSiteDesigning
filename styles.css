@@ -29,3 +29,10 @@ body{
     height:100px;
     margin:20px;
 }
+
+.box2{
+    background-color:rgb(159, 211, 36);
+    flex: 1 200px;
+    height:100px;
+    margin:20px;
+}
