@@ -25,16 +25,24 @@ body{
 
 .box1{
     background-color:aqua;
-    flex: 1 200px;
-    height:100px;
+    flex: 1 ;
+    height:auto;
     margin:20px;
+    padding:10px;
+}
+.center{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
 }
 
 .box2{
     background-color:rgb(159, 211, 36);
     flex: 1 200px;
-    height:100px;
+    height:auto;
     margin:20px;
+    padding:10px;
 }
 
 .box3{
