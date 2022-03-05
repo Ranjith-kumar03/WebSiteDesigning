@@ -36,3 +36,10 @@ body{
     height:100px;
     margin:20px;
 }
+
+.box3{
+    background-color:rgb(221, 11, 176);
+    flex: 1 200px;
+    height:100px;
+    margin:20px;
+}
